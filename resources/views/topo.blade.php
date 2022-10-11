@@ -1,13 +1,16 @@
-<header>
-    <div>
-        <h1><a href="/">&lt;h1&gt;Davi Santos Dev &lt;/h1&gt;</a></h1>
+<header class="row p-0 m-0">
+    <div class="col-sm-6 col-lg-4 col-10">
+        <h1><a href="/">Davi Santos Dev </a></h1>{{--&lt;h1&gt;   &lt;/h1&gt; --}}
     </div>
-    <ul>&lt;ul&gt;
-        <li><a href="" id="Home">&lt;li&gt;Home&lt;/li&gt;</a></li>
-        <li><a href="#Habilidades">&lt;li&gt;Habilidades&lt;/li&gt;</a></li>
-        <li><a href="#Trabalhos">&lt;li&gt;Trabalhos&lt;/li&gt;</a></li>
-        <li><a href="#Experiencia">&lt;li&gt;Experiência&lt;/li&gt;</a></li>
-        <li><a href="#Contato">&lt;li&gt;Contato&lt;/li&gt;</a></li>
-        &lt;/ul&gt;
-    </ul>
+    <nav class="col-sm-6 col-lg-8 col-2">
+        <div class="navbarmobile"><i class="fa fa-bars"></i></div>
+        <ul>{{--&lt;ul&gt;--}}
+            <li><a href="" id="Home">Home</a></li>{{--&lt;li&gt;   &lt;/li&gt; --}}
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Trabalhos">Trabalhos</a></li>
+            <li><a href="#Experiencia">Experiência</a></li>
+            <li><a href="#Contato">Contato</a></li>
+            {{--&lt;/ul&gt; --}}
+        </ul>
+    </nav>
 </header>

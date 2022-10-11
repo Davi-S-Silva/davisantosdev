@@ -15,25 +15,71 @@ a{
 header{
     display: flex;
     justify-content: space-around;
+    /* background-color: blueviolet; */
     align-items: center;
+    margin: 0;
+    padding: 0;
+}
+header div{
+    margin: 0;
+    padding: 0;
+    /* background-color: yellowgreen */
 }
 header h1{
     font-size: 19pt;
+    /* background-color: antiquewhite; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-header ul li a{
+header h1 a{
+    display: block;
+    padding: 10px 0;
+    /* background-color: brown; */
+}
+header nav{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header nav .navbarmobile{
+    /* background-color: black; */
+    display: none;
+    text-align: center;
+    font-size: 18pt;
+    line-height: 5px;
+    padding: 10px;
+}
+
+header nav .navbarmobile:hover{
+    cursor: pointer;
+}
+header nav ul{
+    display: flex;
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+    
+}
+header nav ul li{
+    list-style-type: none;
+    /* background-color: yellow; */
+}
+
+header nav ul li a{
+    /* background-color: rgb(255, 0, 0); */
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    display: block;
     font-size: 12pt;
 }
-ul{
-    display: flex;
-}
-li{
-    list-style-type: none;
-}
-li a{
-    /* background-color: rgb(255, 0, 0); */
-    padding: 5px;
-}
-li a:hover{
+header nav ul li a:hover{
     /* text-decoration: underline; */
     border-bottom: 2px solid rgb(0, 255, 0);
     background-color: rgba(0, 255, 0, 0.253);
@@ -43,6 +89,7 @@ li a:hover{
     justify-content: left;
     align-items: center;
     font-size: 13pt;
+    margin-top: 20px;
 }
 #SobreMim article a{
     padding: 10px;
@@ -156,4 +203,16 @@ li a:hover{
 }
 #Trabalhos figure img{
     width: 100%;
+}
+@media screen and (max-width: 850px){
+    header nav{
+        align-items: flex-end;
+    }
+    header nav ul{
+        display: none;
+    }
+    header nav .navbarmobile{
+        display: block;
+        /* background-color: aqua; */
+    }
 }
