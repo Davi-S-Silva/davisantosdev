@@ -43,6 +43,7 @@
                         <li>Blender</li>
                         <li>Zbrush</li>
                         <li>Photoshop</li>
+                        <li>Krita</li>
                     </ul>
                 </div>
             </div>

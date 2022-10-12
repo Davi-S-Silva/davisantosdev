@@ -23,6 +23,12 @@ Route::get('/#Habilidades', function () {
 Route::get('/#Trabalhos', function () {
     return view('home');
 });
+Route::get('/#Contatos', function () {
+    return view('home');
+});
+Route::get('/admin', function () {
+    return view('admin.home');
+});
 
 // Route::get('/', function () {
 //     return view('welcome');

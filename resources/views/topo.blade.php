@@ -9,7 +9,7 @@
             <li><a href="#Habilidades">Habilidades</a></li>
             <li><a href="#Trabalhos">Trabalhos</a></li>
             <li><a href="#Experiencia">Experiência</a></li>
-            <li><a href="#Contato">Contato</a></li>
+            <li><a href="#Contatos">Contato</a></li>
             {{--&lt;/ul&gt; --}}
         </ul>
     </nav>
